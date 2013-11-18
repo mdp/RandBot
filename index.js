@@ -21,6 +21,8 @@ app.post('/randBot', function(req, res) {
     } else {
       res.json(200, {bet: game.betting.call});
     }
+  } else {
+      res.json(200, {});
   }
 });
 
