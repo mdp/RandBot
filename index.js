@@ -9,18 +9,17 @@ info = {
 }
 
 app.get('/randBot', function(req, res) {
-  res.json(200, info);
+  res.json(200, {info: info});
 });
 
 app.post('/randBot', function(req, res) {
-  console.log(req.body);
   var game = req.body;
   if (game.state !== "complete") {
     var heads = Math.random() > 0.5;
     if (heads) {
-      res.json(200, game.betting.raise);
+      res.json(200, {bet: game.betting.raise});
     } else {
-      res.json(200, game.betting.call);
+      res.json(200, {bet: game.betting.call});
     }
   }
 });
