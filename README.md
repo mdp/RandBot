@@ -1,6 +1,6 @@
 ### The Amazing Randbot
 
-RandBot's is a demo HTTP pokerbot for [Machine Poker](/mdp/MachinePoker)
+RandBot's is a demo of the API for [MachinePoker](https://github.com/mdp/MachinePoker)
 
 #### The remote API
 
@@ -15,7 +15,7 @@ Example Response:
       , btcWallet: "1DAxkDntXRk6N7eUaKiiPGvwXuaaAkd7PL"
     }
 
-##### POST: Should expect to receive a JSON payload with game data
+##### POST: Should expect to receive a JSON payload with game data and return a bet
 
 Example Request: [https://gist.github.com/mdp/050cd82f651eb9f9b9c8](https://gist.github.com/mdp/050cd82f651eb9f9b9c8)
 
