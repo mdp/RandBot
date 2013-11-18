@@ -13,6 +13,7 @@ app.get('/randBot', function(req, res) {
 });
 
 app.post('/randBot', function(req, res) {
+  console.log(req.body);
   var game = req.body;
   if (game.state !== "complete") {
     var heads = Math.random() > 0.5;
