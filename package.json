@@ -1,0 +1,24 @@
+{
+  "name": "randBot",
+  "version": "0.0.1",
+  "description": "The Amazing RandBot - Poker player extraordinaire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mdp/randBot"
+  },
+  "keywords": [
+    "poker"
+  ],
+  "author": "Mark Percival <m@mdp.im>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdp/randBot/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.4"
+  }
+}
